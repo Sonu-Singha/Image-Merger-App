@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Merger App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+
+<body>
+
+    <div class="Main-Box">
+
+        <div class="Left-Tool-Box">
+            <div class="Imaage-1-Container">
+                <input type="file" name="Image-1" id="Img-1" class="IMG-update">
+                <label id="Image-1-Lebel" for="Img-1">
+                    <span class="Img-1-Label-Span">SELECT IMAGE 1</span>
+                </label>
+
+                <span class="Image-1-File-Name">No File Chosen</span>
+            </div>
+
+            <div class="Imaage-2-Container">
+                <input type="file" name="Image-2" id="Img-2">
+                <label id="Image-2-Lebel" for="Img-2">
+                    <span class="Img-2-Label-Span">SELECT IMAGE 2</span>
+                </label>
+
+                <span class="Image-2-File-Name">No File Chosen</span>
+            </div>
+
+            <div class="Next-Button">
+                <button id="Next-Btn" type="button">NEXT</button>
+            </div>
+
+
+        </div>
+
+
+        <div class="Right-Processing-Box">
+
+            <div class="Image-Settings-Section">
+
+                <div class="Position">
+
+                    <span id="set-position">Set Position</span>
+
+                    <label class="lebel-portrait" for="Portrait">
+                        <input type="radio" name="Position" id="Portrait" checked>Portrait
+                    </label>
+
+                    <label class="lebel-landscape" for="Landscape">
+                        <input type="radio" name="Position" id="Landscape">Landscape
+                    </label>
+
+                </div>
+
+                <div class="Thickness-Top-Bottom">
+
+                    <span id="set-thickness-top-bottom">Set Thickness(in top, bottom)</span>
+                    <div id="TB-Thickness-Container">
+                        <input type="number" value="10" min="0" name="Thickness-No-TB" id="TB-Thickness-Input">
+                        <span class="TB-Thickness-Apply-Button"><span>Apply</span></span>
+                    </div>
+
+                </div>
+
+                <div class="Thickness-Left-Right">
+
+                    <span id="set-thickness-left-right">Set Thickness(in left, right)</span>
+                    <div id="LR-Thickness-Container">
+                        <input type="number" value="10" min="0" name="Thickness-No-LR" id="LR-Thickness-Input">
+                        <span class="LR-Thickness-Apply-Button"><span>Apply</span></span>
+                    </div>
+
+                </div>
+
+                <div class="Color">
+                    <span id="set-border-color">Border Color(change accordingly)</span>
+                    <div class="Border-Color-Input-Area">
+                        <input value="#AF963C" type="color" name="Border-Color" id="Border-Color-Input">
+                        <span class="Border-Apply-Button">
+                            <span>Apply</span>
+                        </span>
+                    </div>
+
+
+
+                </div>
+
+                <div class="Save-Image">
+                    <span>DOWNLOAD IMAGE</span>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="Image-Preview-Section">
+                <div class="Edited-Image-Section">
+                    <img src="" alt="Image 1" class="First-Image">
+                    <img src="" alt="Image 2" class="Second-Image">
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

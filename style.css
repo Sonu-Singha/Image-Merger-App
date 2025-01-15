@@ -1,0 +1,430 @@
+/* Code Starts from HeRe */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 1) 85%),
+        radial-gradient(ellipse at top left, rgba(0, 103, 255, 0.5), transparent 100%),
+        radial-gradient(ellipse at top right, rgba(0, 26, 255, 0.5), transparent 100%),
+        radial-gradient(ellipse at center right, rgba(128, 0, 128, 0.5), transparent 77%),
+        radial-gradient(ellipse at center left, rgba(255, 105, 180, 0.5), transparent 77%);
+    height: 97vh;
+    background-repeat: no-repeat;
+
+
+}
+
+.Main-Box {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+/* LEFT BOX */
+
+.Left-Tool-Box {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 13px;
+    height: 90vh;
+    width: 27vw;
+}
+
+
+
+
+
+
+
+/* Image 1 Section */
+
+.Imaage-1-Container {
+    border-bottom: 2px solid black;
+    height: 220px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+#Image-1-Lebel {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 7px;
+    width: 190px;
+    height: 35px;
+    font-family: sans-serif;
+}
+
+#Image-1-Lebel:hover {
+    background-color: rgba(255, 255, 255, 0.578);
+}
+
+.Img-1-Label-Span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    font-size: 14px;
+}
+
+#Image-1-Lebel:hover {
+    cursor: pointer;
+}
+
+#Img-1 {
+    display: none;
+}
+
+
+
+
+
+
+
+/* Image 2 Section */
+
+.Imaage-2-Container {
+
+    height: 140px;
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    align-items: center;
+}
+
+#Image-2-Lebel {
+    background-color: rgba(81, 148, 249, 0.146);
+    border-radius: 7px;
+    width: 190px;
+    height: 35px;
+    font-family: sans-serif;
+}
+
+#Image-2-Lebel:hover {
+    background-color: rgba(81, 148, 249, 0.311);
+}
+
+#Image-2-Lebel:hover {
+    cursor: pointer;
+}
+
+.Img-2-Label-Span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+
+    font-size: 14px;
+}
+
+#Img-2 {
+    display: none;
+}
+
+
+
+
+
+
+
+/* Next Button Section */
+
+.Next-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    font-family: sans-serif;
+}
+
+#Next-Btn {
+    border: none;
+    height: 35px;
+    width: 70px;
+    background-color: rgba(81, 148, 249, 0.1);
+    border-radius: 7px;
+}
+
+#Next-Btn:hover {
+    cursor: pointer;
+    background-color: rgba(0, 102, 255, 0.242);
+}
+
+
+
+
+
+
+
+/* RIGHT BOX */
+
+.Right-Processing-Box {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    height: 98vh;
+    width: 65vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* Image Settings Section */
+
+.Image-Settings-Section {
+    width: 24vw;
+    height: 90vh;
+}
+
+/* Set Position Section */
+
+.Position {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: end;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#set-position {
+    width: 150px;
+    position: relative;
+    left: 40px;
+    color: rgb(0, 29, 72);
+    font-weight: bold;
+}
+
+.lebel-portrait,
+.lebel-landscape {
+    width: 130px;
+    position: relative;
+    left: 40px;
+    color: rgb(29, 69, 130);
+}
+
+.lebel-portrait,
+.lebel-landscape:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Set Border Thickness(top-bottom & left-right) Section */
+
+.Thickness-Top-Bottom,
+.Thickness-Left-Right {
+
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 15px;
+    justify-content: end;
+    gap: 7px;
+}
+
+#set-thickness-top-bottom,
+#set-thickness-left-right,
+#set-border-color {
+    width: 259px;
+    position: relative;
+    left: 40px;
+    color: rgb(0, 29, 72);
+    font-weight: bold;
+}
+
+#TB-Thickness-Container,
+#LR-Thickness-Container {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    position: relative;
+    left: 40px;
+}
+
+#TB-Thickness-Input,
+#LR-Thickness-Input {
+    outline: none;
+}
+
+.TB-Thickness-Apply-Button,
+.LR-Thickness-Apply-Button {
+    background-color: rgba(43, 69, 201, 0.231);
+    border-radius: 4px;
+    width: 50px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LR-Thickness-Apply-Button:hover {
+    cursor: pointer;
+    background-color: rgba(43, 69, 201, 0.361);
+}
+
+.TB-Thickness-Apply-Button:hover {
+    cursor: pointer;
+    background-color: rgba(43, 69, 201, 0.4);
+}
+
+
+
+
+
+
+
+/* Border Color Section */
+
+.Color {
+
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.Border-Color-Input-Area {
+    position: relative;
+    left: 40px;
+    top: 8px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+#Border-Color-Input {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    appearance: none;
+    background: none;
+    height: 70px;
+    width: 166px;
+    height: 150px;
+}
+
+.Border-Apply-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 23px;
+    background-color: rgba(43, 69, 201, 0.231);
+    border-radius: 4px;
+}
+
+.Border-Apply-Button:hover {
+    cursor: pointer;
+    background-color: rgba(43, 69, 201, 0.363);
+}
+
+
+
+
+
+
+
+
+/* Save Image Section */
+
+.Save-Image {
+    border: 1.5px solid black;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+    width: 228px;
+    position: relative;
+    top: 12px;
+    left: 42px;
+    background-color: rgba(81, 148, 249, 0.1);
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.Save-Image:hover {
+    background-color: rgba(0, 164, 14, 0.4);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* IMAGE PREVIEW SECTION */
+
+.Image-Preview-Section {
+    border: 2px solid black;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    width: 39vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Edited-Image-Section {
+    max-height: 94vh;
+    max-width: 38vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+
+}
+
+.First-Image {
+    border-top: 11px solid #AF963C;
+    border-bottom: 11px solid #AF963C;
+    border-left: 11px solid #AF963C;
+    border-right: 11px solid #AF963C;
+    object-fit: contain;
+    max-width: 50%;
+    max-height: 80%;
+    box-shadow: none;
+    /* overflow: none; */
+}
+
+.Second-Image {
+    border-top: 11px solid #AF963C;
+    border-bottom: 11px solid #AF963C;
+    border-left: 11px solid #AF963C;
+    border-right: 11px solid #AF963C;
+    object-fit: contain;
+    max-width: 50%;
+    max-height: 80%;
+    box-shadow: none;
+    /* overflow: none; */
+}
