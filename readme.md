@@ -26,21 +26,22 @@
 ## 📸 How to Use
 1. Upload the images you want to merge.
 2. Choose the layout and settings.
-3. Click **NEXT** to create the final output.
-4. Download your merged image.
+3. Select the **border thickness** and **border color** for your merged image.
+4. Click **NEXT** to create the final output.
+5. Download your merged image.
 
 ---
 
 ## 🖼️ Screenshots
 
 ### Screenshot 1
-![Screenshot 1](https://envs.sh/Nma.jpg)
+![Screenshot 1](/Sceenshots/Screenshot1.png)
 
 ### Screenshot 2
-![Screenshot 2](https://envs.sh/NmO.jpg)
+![Screenshot 2](/Sceenshots/Screenshot2.png)
 
 ### Screenshot 3
-![Screenshot 3](https://envs.sh/Nmm.jpg)
+![Screenshot 3](/Sceenshots/Screenshot3.png)
 
 
 ---
