@@ -35,13 +35,13 @@
 ## 🖼️ Screenshots
 
 ### Screenshot 1
-![Screenshot 1](/Sceenshots/Screenshot1.png)
+![Screenshot 1](/Screenshots/Screenshot1.png)
 
 ### Screenshot 2
-![Screenshot 2](/Sceenshots/Screenshot2.png)
+![Screenshot 2](/Screenshots/Screenshot2.png)
 
 ### Screenshot 3
-![Screenshot 3](/Sceenshots/Screenshot3.png)
+![Screenshot 3](/Screenshots/Screenshot3.png)
 
 
 ---
