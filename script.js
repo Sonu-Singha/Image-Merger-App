@@ -53,7 +53,7 @@ let img1 = '',
     position = 'Portrait',
     tbThickness = "",
     lrThickness = "",
-    borderColor = "grey";
+    borderColor;
 
 // Setting Display None to IMG Tag's
 
@@ -224,10 +224,11 @@ Radio_Button.forEach(radio => {
 
 TB_Thickness_Apply_Button.addEventListener("click", function () {
     tbThickness = parseInt(TB_Thickness_Input.value);
-    First_IMG_Tag.style.borderTop = tbThickness + "px solid grey"
-    First_IMG_Tag.style.borderBottom = tbThickness + "px solid grey"
-    Second_IMG_Tag.style.borderTop = tbThickness + "px solid grey"
-    Second_IMG_Tag.style.borderBottom = tbThickness + "px solid grey"
+
+    First_IMG_Tag.style.borderTop = `${tbThickness}px solid ${Border_Color_Input.value}`;
+    First_IMG_Tag.style.borderBottom = `${tbThickness}px solid ${Border_Color_Input.value}`;
+    Second_IMG_Tag.style.borderTop = `${tbThickness}px solid ${Border_Color_Input.value}`;
+    Second_IMG_Tag.style.borderBottom = `${tbThickness}px solid ${Border_Color_Input.value}`;
 
     let maxHeight = window.innerHeight * 0.94;  // Convert 94vh to pixels
     Edited_Image_Section.style.height = img1.height + img2.height + tbThickness + "px"
@@ -245,10 +246,10 @@ TB_Thickness_Apply_Button.addEventListener("click", function () {
 LR_Thickness_Apply_Button.addEventListener("click", function () {
     lrThickness = parseInt(LR_Thickness_Input.value);
 
-    First_IMG_Tag.style.borderLeft = lrThickness + "px solid grey"
-    First_IMG_Tag.style.borderRight = lrThickness + "px solid grey"
-    Second_IMG_Tag.style.borderLeft = lrThickness + "px solid grey"
-    Second_IMG_Tag.style.borderRight = lrThickness + "px solid grey"
+    First_IMG_Tag.style.borderLeft = `${lrThickness}px solid ${Border_Color_Input.value}`;
+    First_IMG_Tag.style.borderRight = `${lrThickness}px solid ${Border_Color_Input.value}`;
+    Second_IMG_Tag.style.borderLeft = `${lrThickness}px solid ${Border_Color_Input.value}`;
+    Second_IMG_Tag.style.borderRight = `${lrThickness}px solid ${Border_Color_Input.value}`;
 
     let maxWidth = window.innerWidth * 0.38;  // Convert 94vh to pixels
     Edited_Image_Section.style.width = (img1.width + img2.width + lrThickness) + "px"
