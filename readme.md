@@ -7,7 +7,8 @@
 ## 🚀 Features
 - Combine two images into one seamlessly.
 - Adjustable layout options (vertical, horizontal).
-- User-friendly and fast.
+- Adjustable border thickness & color(top-bottom, left-right).
+- Fast and user-friendly layout.
 
 ---
 
@@ -25,22 +26,22 @@
 
 ## 📸 How to Use
 1. Upload the images you want to merge.
-2. Choose the layout and settings.
+2. Choose the layout(vertical, horizontal).
 3. Select the **border thickness** and **border color** for your merged image.
 4. Click **NEXT** to create the final output.
-5. Download your merged image.
+5. **DOWNLOAD** your merged image.
 
 ---
 
 ## 🖼️ Screenshots
 
-### Screenshot 1
+### Select Images & Apply Settings
 ![Screenshot 1](/Screenshots/Screenshot1.png)
 
-### Screenshot 2
+### Output 1(vertical)
 ![Screenshot 2](/Screenshots/Screenshot2.png)
 
-### Screenshot 3
+### Output 1(horizontal)
 ![Screenshot 3](/Screenshots/Screenshot3.png)
 
 
@@ -56,7 +57,7 @@
 
 ---
 
-## ✨ Author
+## ✨ Coder(Author)
 **[Sonu Kumar Singha](https://github.com/Sonu-Singha)**
 
 ---
@@ -66,3 +67,6 @@ I have not implemented the responsiveness of the site yet. If anyone can work on
 
 Feel free to suggest ideas, fix bugs, or submit improvements. Every contribution matters! 😊
 
+---
+
+**In the meantime Keep Coding:>**
